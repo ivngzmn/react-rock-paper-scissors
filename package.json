@@ -1,40 +1,45 @@
 {
-  "name" : "finished",
-  "private" : true,
-  "eslintConfig" : {
-    "extends" : "react-app"
+  "name": "finished",
+  "private": true,
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "optionalDependencies" : {
-
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.25.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.3.2"
   },
-  "devDependencies" : {
-
+  "scripts": {
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start": "react-scripts start"
   },
-  "scripts" : {
-    "build" : "react-scripts build",
-    "test" : "react-scripts test",
-    "eject" : "react-scripts eject",
-    "start" : "react-scripts start"
-  },
-  "browserslist" : {
-    "development" : [
+  "browserslist": {
+    "development": [
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
     ],
-    "production" : [
+    "production": [
       ">0.2%",
       "not dead",
       "not op_mini all"
     ]
   },
-  "version" : "0.1.0",
-  "dependencies" : {
-    "react" : "^17.0.2",
-    "@testing-library\/user-event" : "^13.2.1",
-    "@testing-library\/jest-dom" : "^5.14.1",
-    "@testing-library\/react" : "^12.0.0",
-    "react-dom" : "^17.0.2",
-    "react-scripts" : "^4.0.3"
+  "version": "0.1.0",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3"
   }
 }
